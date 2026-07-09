@@ -1,0 +1,21 @@
+.welcome{
+    font-size: 20px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.counter{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.counter button{
+    align-self: center;
+    padding: 5px 30px;
+    font-size: 24px;
+}
+.counter h1{
+    text-align: center;
+}

@@ -1,12 +1,14 @@
 import { useState } from 'react'
-import './index.css'
+import './App.css'
+import CounterSpace from './components/CounterSpace'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-         <h1>Hello</h1>
+      <h1 className='welcome'>Hello</h1>
+      <CounterSpace count={count} setCount={setCount}/>
     </>
   )
 }
